@@ -27,7 +27,7 @@ def help
 end
 
 def list 
-  puts " "
+  
 end
 def exit_jukebox
   
