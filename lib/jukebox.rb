@@ -18,3 +18,10 @@ def run(songs)
   puts "Please enter a command:"
   user_input = gets.chomp
 end 
+def help 
+  puts " "
+end
+
+def exit_jukebox
+  
+end
