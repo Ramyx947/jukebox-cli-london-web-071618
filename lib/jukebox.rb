@@ -26,7 +26,9 @@ def help
 - exit : exits this program "
 end
 
-def list 
+def list(songs)
+  songs.each_with_index do |index|
+    puts "#{index}"
   
 end
 def exit_jukebox
