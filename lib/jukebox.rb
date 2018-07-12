@@ -13,3 +13,8 @@ songs = [
 def say_hello(name)
   "Hi #{name}!"
 end
+
+def run(songs)
+  puts "Please enter a command"
+  user_input=gets.chomp
+end 
