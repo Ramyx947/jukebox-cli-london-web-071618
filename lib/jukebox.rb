@@ -26,6 +26,9 @@ def help
 - exit : exits this program "
 end
 
+def list 
+  puts " "
+end
 def exit_jukebox
   
 end
