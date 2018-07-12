@@ -32,7 +32,7 @@ def list(songs)
  end
   
   def play(song)
-    
+    songs=gets.chomp
     
   end
   
