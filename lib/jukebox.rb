@@ -27,8 +27,8 @@ def help
 end
 
 def list(songs)
-  songs.each_with_index do |index|
-    puts "#{index}"
+  songs.each_with_index do |val,index| puts "index: #{index} for #{val}"
+ end
   
 end
 def exit_jukebox
