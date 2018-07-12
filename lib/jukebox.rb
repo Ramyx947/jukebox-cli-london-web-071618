@@ -18,6 +18,7 @@ def run(songs)
   puts "Please enter a command:"
   user_input = gets.chomp
 end 
+
 def help 
   puts "I accept the following commands:
 - help : displays this help message
@@ -29,6 +30,14 @@ end
 def list(songs)
   songs.each_with_index do |val,index| puts "index: #{index} for #{val}"
  end
+  
+  def play(song)
+    
+    
+  end
+  
+  
+  
   
 end
 def exit_jukebox
