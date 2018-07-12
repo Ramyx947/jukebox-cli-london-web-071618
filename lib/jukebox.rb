@@ -15,6 +15,6 @@ def say_hello(name)
 end
 
 def run(songs)
-  puts "Please enter a command"
-  user_input=gets.chomp
+  puts "Please enter a command:"
+  user_input = gets.chomp
 end 
